@@ -6,11 +6,10 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             list.add( ran.nextInt(0, 2));
             Collections.sort(list);
            System.out.println(list);
-
         }
         System.out.println(" ");
         LinkedList<Integer> linkedList = new LinkedList<>(list);
